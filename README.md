@@ -30,7 +30,7 @@ To run this project locally, you need to have the following installed:
 
 3. **Open the `index.html` file in your web browser:**
     - You can simply double-click the `index.html` file, or
-    - Use a web server to serve the files (e.g., using VS Code Live Server extension).
+    - Use a web server to serve the files.
 
 ## Through Github Page
 

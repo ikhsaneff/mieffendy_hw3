@@ -34,4 +34,4 @@ To run this project locally, you need to have the following installed:
 
 ## Through Github Page
 
-1. Open the link https://ikhsaneff.github.io/mieffendy_hw2/
+1. Open the link https://ikhsaneff.github.io/mieffendy_hw3/

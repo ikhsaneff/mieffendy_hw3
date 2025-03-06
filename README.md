@@ -5,7 +5,7 @@ This project is a remake of the UA Campus Store website. It showcases various pr
 ## Features
 - Responsive design
 - Navigation bar with links to different sections
-- Hero section with a featured image and welcome message
+- Hero section with a featured image
 - Featured products section displaying popular items
 - Footer with additional links
 

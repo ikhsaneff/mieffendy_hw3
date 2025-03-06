@@ -1,0 +1,15 @@
+.text-bold {
+    font-weight: bold;
+}
+
+.text-black {
+    color: black;
+}
+
+.text-small {
+    font-size: small;
+}
+
+.text-center {
+    text-align: center;
+}

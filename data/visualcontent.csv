@@ -1,9 +1,25 @@
 id, name, description, short_name, file_type, css_class, product_id
-0, 
-1,
-2,
-3,
-4,
-5,
-6,
-7,
+1, "Nike: Arizona Wildcats Essential Logo Tee", "featured product image", "product1", ".jpg", "featured-image", 1
+2, "Slam Arizona Wildcats Basketball Cover Short Sleeve", "featured product image", "product2", ".jpg", "featured-image", 2
+3, "Black History Month Lift As We Climb Grey Short Sleeve", "featured product image", "product3", ".jpg", "featured-image", 3
+4, "Black History Month Catface Black Short Sleeve", "featured product image", "product4", ".jpg", "featured-image", 4
+5, "Uscape Arizona Wildcats Alumni Emblem Crewneck", "featured product image", "product5", ".jpg", "featured-image", 5
+6, "Colosseum Arizona Wildcats Atmosphere Swim Navy Shorts", "featured product image", "product6", ".jpg", "featured-image", 6
+7, "Nike Womens Arizona A Wildcat Loose Short Sleeve", "featured product image", "product7", ".jpg", "featured-image", 7
+8, "Nike Arizona Wildcats Softball Stitch Cotton Long Sleeve", "featured product image", "product8", ".jpg", "featured-image", 8
+9, "Nike: Arizona Wildcats Essential Logo Tee", "main product image", "product1", ".jpg", "main-image", 1
+10, "Slam Arizona Wildcats Basketball Cover Short Sleeve", "main product image", "product2", ".jpg", "main-image", 2
+11, "Black History Month Lift As We Climb Grey Short Sleeve", "main product image", "product3", ".jpg", "main-image", 3
+12, "Black History Month Catface Black Short Sleeve", "main product image", "product4", ".jpg", "main-image", 4
+13, "Uscape Arizona Wildcats Alumni Emblem Crewneck", "main product image", "product5", ".jpg", "main-image", 5
+14, "Colosseum Arizona Wildcats Atmosphere Swim Navy Shorts", "main product image", "product6", ".jpg", "main-image", 6
+15, "Nike Womens Arizona A Wildcat Loose Short Sleeve", "main product image", "product7", ".jpg", "main-image", 7
+16, "Nike Arizona Wildcats Softball Stitch Cotton Long Sleeve", "main product image", "product8", ".jpg", "main-image", 8
+17, "Nike: Arizona Wildcats Essential Logo Tee", "other product image", "product1", ".jpg", "other-image", 1
+18, "Slam Arizona Wildcats Basketball Cover Short Sleeve", "other product image", "product2", ".jpg", "other-image", 2
+19, "Black History Month Lift As We Climb Grey Short Sleeve", "other product image", "product3", ".jpg", "other-image", 3
+20, "Black History Month Catface Black Short Sleeve", "other product image", "product4", ".jpg", "other-image", 4
+21, "Uscape Arizona Wildcats Alumni Emblem Crewneck", "other product image", "product5", ".jpg", "other-image", 5
+22, "Colosseum Arizona Wildcats Atmosphere Swim Navy Shorts", "other product image", "product6", ".jpg", "other-image", 6
+23, "Nike Womens Arizona A Wildcat Loose Short Sleeve", "other product image", "product7", ".jpg", "other-image", 7
+24, "Nike Arizona Wildcats Softball Stitch Cotton Long Sleeve", "other product image", "product8", ".jpg", "other-image", 8

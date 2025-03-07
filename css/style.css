@@ -83,10 +83,18 @@ body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.product-card img {
+.featured-image {
     width: 100%;
     height: auto;
     border-radius: 4px;
+}
+
+.product-card a {
+    text-decoration: none;
+}
+
+.product-card a:hover {
+    text-decoration: underline;
 }
 
 footer {
@@ -114,10 +122,6 @@ footer {
 }
 
 @media (max-width: 768px) {
-    .desktop-only {
-        display: none;
-    }
-
     .hamburger-menu {
         display: block;
     }

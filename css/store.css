@@ -54,10 +54,18 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.other-product-card img {
+.other-image {
     width: 100%;
     height: auto;
     border-radius: 4px;
+}
+
+.other-product-card a {
+    text-decoration: none;
+}
+
+.other-product-card a:hover {
+    text-decoration: underline black;
 }
 
 @media (max-width: 768px) {

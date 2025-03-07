@@ -26,7 +26,7 @@ $product_model = new ProductModels();
                 <img src="images/logo.png" alt="UA Campus Store Logo">
             </a>
             <div class="nav-links">
-                <a href="#"><i class="fas fa-search"></i></a>
+                <a href="search.php"><i class="fas fa-search"></i></a>
                 <a href="#"><i class="fas fa-user"></i></a>
             </div>
         </div>
@@ -34,9 +34,7 @@ $product_model = new ProductModels();
 
     <!-- The hero section is designed to immediately capture the user's attention with a large, visually appealing image. 
          This helps to create a strong first impression and encourages users to explore the site further. -->
-    <section class="hero">
-        <img src="images/hero.jpg" alt="Featured Products" class="hero-image">
-    </section>
+    <img src="images/hero.jpg" alt="Featured Products" class="hero-image">
 
     <!-- The featured products section showcases popular items to entice users to make a purchase. 
          By displaying product images, names, prices, and ratings, users can quickly see what is available and make informed decisions. -->
@@ -57,7 +55,7 @@ $product_model = new ProductModels();
                         <?php echo $image->getHTML(); ?>
                         <p class="text-bold text-black"><?php echo $product->getProductProperty("name"); ?></p>
                     </a>
-                    <p><?php echo number_format($product->getProductProperty("price"), 2); ?></p>
+                    <p>$<?php echo number_format($product->getProductProperty("price"), 2); ?></p>
                     <div class="rating">
                         <?php echo $product->getRatingStars(); ?>
                     </div>

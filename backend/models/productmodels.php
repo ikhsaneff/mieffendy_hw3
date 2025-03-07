@@ -84,4 +84,33 @@ class ProductModels {
         }
     }
 
+    function notFound() {
+        $html = "<div class='not-found'>
+                    <h1>404 Not Found</h1>
+                    <p>The product you are looking for does not exist.</p>
+                    <a href='index.php'>Return to Homepage</a>
+                </div>";
+
+        return $html;
+    }
+
+    
+    function searchProduct(string $query) {
+        if (empty($query)) {
+            return [];
+        }
+
+        $results = [];
+
+        foreach ($this->products as $product) {
+            $name = $product->getProductProperty('name');
+
+            if (stripos($name, trim($query)) !== false) {
+                $results[] = $product;
+            }
+        }
+
+        return $results;
+    }
+
 }

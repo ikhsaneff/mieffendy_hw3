@@ -53,19 +53,27 @@ body {
     font-size: 1.5rem;
 }
 
-.hero {
-    margin-top: 50px;
-    position: relative;
+.not-found {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: flex;
+    justify-content: center;
+    padding-top: 5%;
+    height: 77.5vh;
 }
 
 .hero-image {
+    margin-top: 50px;
+    margin-bottom: 0px;
+    position: relative;
     width: 100%;
     height: auto;
 }
 
 .featured-products {
     max-width: 1200px;
-    margin: 2rem auto;
+    margin: 50px auto;
     padding: 0 1rem;
 }
 
@@ -103,6 +111,8 @@ footer {
     font-size: small;
     padding: 2rem;
     margin-top: 2rem;
+    bottom: 0;
+    height: 18vh;
 }
 
 .footer-links {

@@ -7,13 +7,6 @@ $product_id =  $_GET['id'];
 
 $product = $product_model->getProductObjects($product_id);
 
-if ($product == false) {
-    echo "<p>Product not found.</p>";
-    exit();
-}
-
-$image = $product_model->getVisualObject($product_id, "main-image");
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -37,11 +30,18 @@ $image = $product_model->getVisualObject($product_id, "main-image");
                 <img src="images/logo.png" alt="UA Campus Store Logo">
             </a>
             <div class="nav-links">
-                <a href="#"><i class="fas fa-search"></i></a>
+                <a href="search.php"><i class="fas fa-search"></i></a>
                 <a href="#"><i class="fas fa-user"></i></a>
             </div>
         </div>
     </nav>
+
+    <?php 
+    if ($product == false):
+        echo $product_model->notFound();
+    else:
+        $image = $product_model->getVisualObject($product_id, "main-image");
+    ?>
 
     <!-- Product detail section uses a two-column layout (images and info) for optimal viewing
          on desktop screens while maintaining readability and easy scanning of product information.
@@ -93,7 +93,7 @@ $image = $product_model->getVisualObject($product_id, "main-image");
                 </a>
             </div>
 
-            <?php endforeach; ?>
+            <?php endforeach; endif; ?>
             
         </div>
     </section>

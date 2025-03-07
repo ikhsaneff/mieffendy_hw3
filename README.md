@@ -1,6 +1,6 @@
-# UA Campus Store Remake
+# UA Campus Store Remake v2.0
 
-This project is a remake of the UA Campus Store website. It showcases various products available at the store, including their images, names, prices, and ratings.
+This project is an update of the UA Campus Store website remake with additional features such as dynamic content from .csv file and search product feature.
 
 ## Features
 - Responsive design
@@ -8,6 +8,8 @@ This project is a remake of the UA Campus Store website. It showcases various pr
 - Hero section with a featured image
 - Featured products section displaying popular items
 - Footer with additional links
+- [NEW!] Dynamically loaded content from .csv files
+- [NEW!] Search product feature
 
 ## Getting Started
 
@@ -15,8 +17,9 @@ This project is a remake of the UA Campus Store website. It showcases various pr
 To run this project locally, you need to have the following installed:
 - Git
 - A web browser
+- PHP
 
-### Installation
+### How to Run The Project
 
 1. **Clone the repository:**
     ```bash
@@ -28,10 +31,9 @@ To run this project locally, you need to have the following installed:
     cd mieffendy_hw3
     ```
 
-3. **Open the `index.html` file in your web browser:**
-    - You can simply double-click the `index.html` file, or
-    - Use a web server to serve the files.
+3. **Run the project using installed PHP:**
+    ```bash
+    php -S localhost:8000
+    ```
 
-## Through Github Page
-
-1. Open the link https://ikhsaneff.github.io/mieffendy_hw3/
+4. **Open your browser and go to http://localhost:8000/index.php**
